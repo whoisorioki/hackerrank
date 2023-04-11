@@ -1,7 +1,6 @@
 if __name__ == '__main__':
     people = {}
-    N = int(input())
-    for _ in range(N):
+    for _ in range(int(input())):
         name, number = input().split()
         number = int(number)
         people[name] = number
