@@ -7,7 +7,11 @@ def swap_case(s):
         elif char.islower():
             char = char.upper()
             swap += char
+        else:
+            swap += char
     return swap
+
+    # return s.swapcase()
 
 if __name__ == '__main__':
     s = input()
