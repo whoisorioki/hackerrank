@@ -1,5 +1,4 @@
 import textwrap
-from textwrap import TextWrapper
 
 
 def wrap(string, max_width):
